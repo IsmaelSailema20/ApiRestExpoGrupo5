@@ -1,6 +1,7 @@
 ﻿using HospitalAPI.Data;
 using HospitalAPI.Models;
 using HospitalAPI.Models.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,7 @@ namespace HospitalApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CentrosMedicosController : ControllerBase
     {
         private readonly HospitalDbContext _context;
