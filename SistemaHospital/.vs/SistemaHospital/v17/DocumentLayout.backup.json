@@ -1,0 +1,427 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\SistemaHospital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\data\\pacientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\data\\pacientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\pacientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\pacientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\medicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\medicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\medicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\medicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\consultamedicacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\consultamedicacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\centromedicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\centromedicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\centromedicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\centromedicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\controllers\\centrosmedicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\centrosmedicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\centromedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\services\\replicaselectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\services\\replicaselectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\services\\pacientedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\services\\pacientedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\consultamedica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\consultamedica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\models\\dto\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\user\\source\\repos\\sistemahospital\\hospitalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 187,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicoUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:14:51.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacienteCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:15:24.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Data\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Data\\HospitalDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Data\\HospitalDbContext.cs",
+              "RelativeToolTip": "HospitalAPI\\Data\\HospitalDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:21:16.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PacienteDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Data\\PacienteDbContext.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Data\\PacienteDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Data\\PacienteDbContext.cs",
+              "RelativeToolTip": "HospitalAPI\\Data\\PacienteDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:25:02.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "HospitalAPI\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAowHMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:38:21.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:19:05.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsultaMedicaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:17:16.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CentroMedicoUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:23:09.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CentroMedicoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:22:18.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PacienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\PacienteDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\PacienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:17:56.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CentrosMedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Controllers\\CentrosMedicosController.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\CentrosMedicosController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Controllers\\CentrosMedicosController.cs",
+              "RelativeToolTip": "HospitalAPI\\Controllers\\CentrosMedicosController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:29:51.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CentroMedico.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\CentroMedico.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\CentroMedico.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\CentroMedico.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\CentroMedico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:16:31.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Medico.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Medico.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Medico.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:17:18.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReplicaSelectorService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Services\\ReplicaSelectorService.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Services\\ReplicaSelectorService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Services\\ReplicaSelectorService.cs",
+              "RelativeToolTip": "HospitalAPI\\Services\\ReplicaSelectorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:27:43.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PacienteDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Services\\PacienteDbContextFactory.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Services\\PacienteDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Services\\PacienteDbContextFactory.cs",
+              "RelativeToolTip": "HospitalAPI\\Services\\PacienteDbContextFactory.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:28:30.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsultaMedica.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\ConsultaMedica.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\ConsultaMedica.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\ConsultaMedica.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\ConsultaMedica.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA/wAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:17:48.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ciudad.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Ciudad.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Ciudad.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Ciudad.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Ciudad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:16:04.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Controllers\\MedicosController.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\MedicosController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Controllers\\MedicosController.cs",
+              "RelativeToolTip": "HospitalAPI\\Controllers\\MedicosController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwGgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:37:32.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Paciente.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:17:33.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Especialidad.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Especialidad.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Especialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:16:48.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PacienteUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
+              "RelativeToolTip": "HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:18:28.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\Program.cs",
+              "RelativeToolTip": "HospitalAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:28:55.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "HospitalAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SistemaHospital\\HospitalAPI\\appsettings.json",
+              "RelativeToolTip": "HospitalAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T05:36:05.044Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
