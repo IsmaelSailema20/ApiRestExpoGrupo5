@@ -28,7 +28,8 @@ namespace HospitalAPI.Controllers
 
         // GET: api/<UsuariosController>
         [HttpGet]
-        [Authorize]
+        [Authorize(Policy = "AdministradorPolitica")]
+
         public async Task<List<Usuario>> Get()
         {
             return await _context.Usuarios

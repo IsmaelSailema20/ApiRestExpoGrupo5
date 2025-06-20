@@ -5,57 +5,39 @@ using HospitalAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace HospitalApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    [Authorize(Policy = "MedicoPolitica")]
     public class PacientesController : ControllerBase
     {
         private readonly PacienteDbContextFactory _contextFactory;
-        private readonly ReplicaSelectorService _replicaSelector;
 
-        public PacientesController(PacienteDbContextFactory contextFactory, ReplicaSelectorService replicaSelector)
+        public PacientesController(PacienteDbContextFactory contextFactory)
         {
             _contextFactory = contextFactory;
-            _replicaSelector = replicaSelector;
+        }
+
+        private string? ObtenerCiudadDesdeToken()
+        {
+            var claimCiudad = User.Claims.FirstOrDefault(c => c.Type == "ciudad")?.Value?.ToLower();
+            if (claimCiudad == "guayaquil" || claimCiudad == "cuenca")
+                return claimCiudad;
+            return null;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PacienteDto>>> GetPacientes([FromQuery] int? idMedico)
+        public async Task<ActionResult<IEnumerable<PacienteDto>>> GetPacientes()
         {
-            if (!idMedico.HasValue)
-            {
-                var pacientesDtoget = new List<PacienteDto>();
-                foreach (var dbreplica in new[] { "guayaquil", "cuenca" })
-                {
-                    using var context = _contextFactory.CreateDbContext(dbreplica);
-                    var pacientesr = await context.Pacientes
-                        .AsNoTracking()
-                        .ToListAsync();
-                    pacientesDtoget.AddRange(pacientesr.Select(p => new PacienteDto
-                    {
-                        id = p.id,
-                        nombre = p.nombre,
-                        apellido = p.apellido,
-                        cedula = p.cedula,
-                        fecha_nacimiento = p.fecha_nacimiento
-                    }));
-                }
-                return pacientesDtoget;
-            }
+            var ciudad = ObtenerCiudadDesdeToken();
+            if (ciudad == null)
+                return Unauthorized("Ciudad no válida o no presente en el token.");
 
-            var replica = await _replicaSelector.GetReplicaForMedico(idMedico.Value);
-            if (replica != "guayaquil" && replica != "cuenca")
-            {
-                return BadRequest("El médico no está asociado a una réplica válida para pacientes.");
-            }
-
-            using var dbContext = _contextFactory.CreateDbContext(replica);
-            var pacientes = await dbContext.Pacientes
-                .AsNoTracking()
-                .ToListAsync();
+            using var context = _contextFactory.CreateDbContext(ciudad);
+            var pacientes = await context.Pacientes.AsNoTracking().ToListAsync();
 
             var pacientesDto = pacientes.Select(p => new PacienteDto
             {
@@ -70,25 +52,19 @@ namespace HospitalApi.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<PacienteDto>> GetPaciente(int id, [FromQuery] int idMedico)
+        public async Task<ActionResult<PacienteDto>> GetPaciente(int id)
         {
-            var replica = await _replicaSelector.GetReplicaForMedico(idMedico);
-            if (replica != "guayaquil" && replica != "cuenca")
-            {
-                return BadRequest("El médico no está asociado a una réplica válida para pacientes.");
-            }
+            var ciudad = ObtenerCiudadDesdeToken();
+            if (ciudad == null)
+                return Unauthorized("Ciudad no válida o no presente en el token.");
 
-            using var context = _contextFactory.CreateDbContext(replica);
-            var paciente = await context.Pacientes
-                .AsNoTracking()
-                .FirstOrDefaultAsync(p => p.id == id);
+            using var context = _contextFactory.CreateDbContext(ciudad);
+            var paciente = await context.Pacientes.AsNoTracking().FirstOrDefaultAsync(p => p.id == id);
 
             if (paciente == null)
-            {
                 return NotFound();
-            }
 
-            var pacienteDto = new PacienteDto
+            return new PacienteDto
             {
                 id = paciente.id,
                 nombre = paciente.nombre,
@@ -96,30 +72,23 @@ namespace HospitalApi.Controllers
                 cedula = paciente.cedula,
                 fecha_nacimiento = paciente.fecha_nacimiento
             };
-
-            return pacienteDto;
         }
 
         [HttpPost]
-        public async Task<ActionResult<PacienteDto>> PostPaciente([FromBody] PacienteCreateDto request, [FromQuery] int idMedico)
+        public async Task<ActionResult<PacienteDto>> PostPaciente([FromBody] PacienteCreateDto request)
         {
-            if (idMedico == 0)
-            {
-                return BadRequest("El parámetro idMedico es obligatorio.");
-            }
+            var ciudad = ObtenerCiudadDesdeToken();
+            if (ciudad == null)
+                return Unauthorized("Ciudad no válida o no presente en el token.");
 
             if (string.IsNullOrWhiteSpace(request.cedula))
-            {
                 return BadRequest("La cédula es obligatoria.");
-            }
 
             foreach (var dbreplica in new[] { "guayaquil", "cuenca" })
             {
                 using var dbContext = _contextFactory.CreateDbContext(dbreplica);
                 if (await dbContext.Pacientes.AnyAsync(p => p.cedula == request.cedula))
-                {
                     return BadRequest("La cédula ya existe en una de las réplicas.");
-                }
             }
 
             var paciente = new Paciente
@@ -130,13 +99,7 @@ namespace HospitalApi.Controllers
                 fecha_nacimiento = request.fecha_nacimiento
             };
 
-            var replica = await _replicaSelector.GetReplicaForMedico(idMedico);
-            if (replica != "guayaquil" && replica != "cuenca")
-            {
-                return BadRequest("El médico no está asociado a una réplica válida para pacientes.");
-            }
-
-            using var context = _contextFactory.CreateDbContext(replica);
+            using var context = _contextFactory.CreateDbContext(ciudad);
             context.Pacientes.Add(paciente);
             await context.SaveChangesAsync();
 
@@ -149,66 +112,47 @@ namespace HospitalApi.Controllers
                 fecha_nacimiento = paciente.fecha_nacimiento
             };
 
-            return CreatedAtAction(nameof(GetPaciente), new { id = paciente.id, idMedico }, pacienteDto);
+            return CreatedAtAction(nameof(GetPaciente), new { id = paciente.id }, pacienteDto);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPaciente(int id, [FromBody] PacienteUpdateDto paciente, [FromQuery] int idMedico)
+        public async Task<IActionResult> PutPaciente(int id, [FromBody] PacienteUpdateDto paciente)
         {
-            var replica = await _replicaSelector.GetReplicaForMedico(idMedico);
-            if (replica != "guayaquil" && replica != "cuenca")
-            {
-                return BadRequest("El médico no está asociado a una réplica válida para pacientes.");
-            }
+            var ciudad = ObtenerCiudadDesdeToken();
+            if (ciudad == null)
+                return Unauthorized("Ciudad no válida o no presente en el token.");
 
-            using var context = _contextFactory.CreateDbContext(replica);
-            var pacienteDb = await context.Pacientes
-                .FirstOrDefaultAsync(p => p.id == id);
+            using var context = _contextFactory.CreateDbContext(ciudad);
+            var pacienteDb = await context.Pacientes.FirstOrDefaultAsync(p => p.id == id);
 
             if (pacienteDb == null)
-            {
                 return NotFound();
-            }
 
             if (paciente.cedula != null && await context.Pacientes.AnyAsync(p => p.cedula == paciente.cedula && p.id != id))
-            {
                 return BadRequest("La cédula ya existe en otro paciente.");
-            }
 
             pacienteDb.nombre = paciente.nombre ?? pacienteDb.nombre;
             pacienteDb.apellido = paciente.apellido ?? pacienteDb.apellido;
             pacienteDb.cedula = paciente.cedula ?? pacienteDb.cedula;
             pacienteDb.fecha_nacimiento = paciente.fecha_nacimiento ?? pacienteDb.fecha_nacimiento;
 
-            try
-            {
-                await context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                return NotFound();
-            }
+            await context.SaveChangesAsync();
 
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeletePaciente(int id, [FromQuery] int idMedico)
+        public async Task<IActionResult> DeletePaciente(int id)
         {
-            var replica = await _replicaSelector.GetReplicaForMedico(idMedico);
-            if (replica != "guayaquil" && replica != "cuenca")
-            {
-                return BadRequest("El médico no está asociado a una réplica válida para pacientes.");
-            }
+            var ciudad = ObtenerCiudadDesdeToken();
+            if (ciudad == null)
+                return Unauthorized("Ciudad no válida o no presente en el token.");
 
-            using var context = _contextFactory.CreateDbContext(replica);
-            var paciente = await context.Pacientes
-                .FirstOrDefaultAsync(p => p.id == id);
+            using var context = _contextFactory.CreateDbContext(ciudad);
+            var paciente = await context.Pacientes.FirstOrDefaultAsync(p => p.id == id);
 
             if (paciente == null)
-            {
                 return NotFound();
-            }
 
             context.Pacientes.Remove(paciente);
             await context.SaveChangesAsync();

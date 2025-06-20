@@ -22,7 +22,7 @@ namespace HospitalAPI.Token
         {
             new Claim(JwtRegisteredClaimNames.Sub, usuario.Id.ToString()),
             new Claim(JwtRegisteredClaimNames.Email, usuario.Email),
-            new Claim("Rol", usuario.Medico!=null?"Medico":"Empleado"),
+            new Claim("Rol", usuario.Rol),
             new Claim("ciudad",usuario.Medico!=null?usuario.Medico.CentroMedico.Ciudad.nombre:usuario.Empleado.CentroMedico.Ciudad.nombre),
             
             };

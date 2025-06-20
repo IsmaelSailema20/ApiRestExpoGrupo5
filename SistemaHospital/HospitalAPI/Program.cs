@@ -49,6 +49,27 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ClockSkew = TimeSpan.Zero
     };
 });
+
+//Politicas
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("MedicoPolitica", policy =>
+        policy.RequireAssertion(
+                context =>
+                context.User.HasClaim("Rol", "medico")
+            )
+        );
+    options.AddPolicy("AdministradorPolitica", policy =>
+    policy.RequireAssertion(
+            context =>
+            context.User.HasClaim("Rol", "admin")
+        )
+    );
+}
+
+);
+
+
 //Swagger jwt
 builder.Services.AddSwaggerGen(options =>
 {
