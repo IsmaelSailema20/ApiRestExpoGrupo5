@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Médico - Sistema Médico</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Sidebar -->
+      <div class="sidebar col-md-2 d-flex flex-column">
+        <div class="user-info">
+          <img
+            src="https://ui-avatars.com/api/?name=Dra.+Maria&background=1abc9c&color=fff"
+            alt="Usuario" />
+          <h5 id="userName">Dra. María Rodríguez</h5>
+          <p id="userRole">Médico</p>
+        </div>
+        <ul class="nav flex-column mt-3" id="navTabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-section="patients"
+              ><i class="bi bi-people"></i> <span>Pacientes</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-section="appointments"
+              ><i class="bi bi-calendar-check"></i> <span>Citas</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-section="profile"
+              ><i class="bi bi-person-circle"></i> <span>Perfil</span></a
+            >
+          </li>
+        </ul>
+        <button class="btn btn-danger logout-btn mt-auto" id="logoutBtn">
+          <i class="bi bi-box-arrow-left"></i> <span>Cerrar Sesión</span>
+        </button>
+      </div>
+
+      <!-- Contenido Principal -->
+      <div class="main-content">
+        <!-- CRUD Pacientes -->
+        <div class="content-section active" id="patients">
+          <h2 class="page-title">Gestión de Pacientes</h2>
+
+          <div class="card mb-4">
+            <div
+              class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+              <h5 class="mb-0">Lista de Pacientes</h5>
+              <button
+                class="btn btn-light btn-sm"
+                data-bs-toggle="modal"
+                data-bs-target="#addPatientModal">
+                <i class="bi bi-plus-lg"></i> Agregar Paciente
+              </button>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Nombre</th>
+                      <th>Edad</th>
+                      <th>Género</th>
+                      <th>Última Visita</th>
+                      <th>Historial</th>
+                      <th>Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>PA001</td>
+                      <td>Carlos Sánchez</td>
+                      <td>45</td>
+                      <td>Masculino</td>
+                      <td>15/01/2023</td>
+                      <td><span class="badge bg-success">Completo</span></td>
+                      <td class="action-buttons">
+                        <button class="btn btn-sm btn-primary">
+                          <i class="bi bi-eye"></i>
+                        </button>
+                        <button
+                          class="btn btn-sm btn-warning"
+                          data-bs-toggle="modal"
+                          data-bs-target="#editPatientModal">
+                          <i class="bi bi-pencil"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger">
+                          <i class="bi bi-trash"></i>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>PA002</td>
+                      <td>María González</td>
+                      <td>32</td>
+                      <td>Femenino</td>
+                      <td>14/01/2023</td>
+                      <td><span class="badge bg-warning">Pendiente</span></td>
+                      <td class="action-buttons">
+                        <button class="btn btn-sm btn-primary">
+                          <i class="bi bi-eye"></i>
+                        </button>
+                        <button
+                          class="btn btn-sm btn-warning"
+                          data-bs-toggle="modal"
+                          data-bs-target="#editPatientModal">
+                          <i class="bi bi-pencil"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger">
+                          <i class="bi bi-trash"></i>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Agregar Paciente -->
+    <div class="modal fade" id="addPatientModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white">
+            <h5 class="modal-title">Agregar Paciente</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label class="form-label">Nombre</label>
+                  <input type="text" class="form-control" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Fecha de Nacimiento</label>
+                  <input type="date" class="form-control" required />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label class="form-label">Género</label>
+                  <select class="form-select" required>
+                    <option value="">Seleccionar</option>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>Otro</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Teléfono</label>
+                  <input type="text" class="form-control" required />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Dirección</label>
+                <textarea class="form-control" rows="2" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Historial Médico (opcional)</label>
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Cancelar
+            </button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Javascript/ApiRest.js"></script>
+  </body>
+</html>
