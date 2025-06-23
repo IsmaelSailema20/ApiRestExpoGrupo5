@@ -18,6 +18,17 @@ builder.Services.AddDbContext<HospitalDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("QuitoDb"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("QuitoDb"))));
 
+// Configurar CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", builder =>
+    {
+        builder.WithOrigins("http://127.0.0.1:5500") // Origen de tu frontend
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
 //Autorizacion
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(o =>
 {
@@ -114,6 +125,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Habilitar CORS antes de UseAuthorization y MapControllers
+app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();

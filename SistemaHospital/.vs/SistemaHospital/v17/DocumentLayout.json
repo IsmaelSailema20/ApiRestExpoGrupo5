@@ -1,98 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\",
+  "WorkspaceRootPath": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\centrosmedicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\centrosmedicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\services\\pacientedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\services\\pacientedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\data\\pacientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\data\\pacientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\data\\pacientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\centrosmedicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\centrosmedicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\services\\pacientedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\services\\pacientedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\pacientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\pacientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\pacientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\medicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\medicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\medicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\medicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\medicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\medicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\consultamedicacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\consultamedicacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\consultamedicacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\centromedicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\centromedicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\centromedicoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\centromedicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\centromedicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\centromedicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\william\\documents\\6\u00B0 semestre\\aplicaciones distribuidas\\2parcial\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|c:\\users\\usuario\\repositorios git\\apirestexpogrupo5\\sistemahospital\\hospitalapi\\models\\dto\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7CCF66-EA66-4A4C-9519-374CFF829452}|HospitalAPI\\HospitalAPI.csproj|solutionrelative:hospitalapi\\models\\dto\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 187,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,36 +122,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Program.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Program.cs",
               "RelativeToolTip": "HospitalAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T02:50:58.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PacientesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\PacientesController.cs",
-              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\PacientesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\PacientesController.cs",
-              "RelativeToolTip": "HospitalAPI\\Controllers\\PacientesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:54:23.033Z",
+              "WhenOpened": "2025-06-20T02:50:58.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "HospitalAPI\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:54:23.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PacienteDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Services\\PacienteDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Services\\PacienteDbContextFactory.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Services\\PacienteDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Services\\PacienteDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Services\\PacienteDbContextFactory.cs",
               "RelativeToolTip": "HospitalAPI\\Services\\PacienteDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,62 +159,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CentrosMedicosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\CentrosMedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\CentrosMedicosController.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\CentrosMedicosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\CentrosMedicosController.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\CentrosMedicosController.cs",
               "RelativeToolTip": "HospitalAPI\\Controllers\\CentrosMedicosController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:55:07.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MedicosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\MedicosController.cs",
-              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\MedicosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\MedicosController.cs",
-              "RelativeToolTip": "HospitalAPI\\Controllers\\MedicosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:55:56.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T20:55:07.654Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "HospitalAPI\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Title": "MedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\MedicosController.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\MedicosController.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\MedicosController.cs",
+              "RelativeToolTip": "HospitalAPI\\Controllers\\MedicosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:54:52.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T20:55:56.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "HospitalAPI\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "HospitalAPI\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T20:54:52.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Medico.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Medico.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Medico.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Medico.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Medico.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Medico.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Medico.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T12:17:18.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\LoginRequest.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\LoginRequest.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -222,23 +219,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\appsettings.json",
               "RelativeDocumentMoniker": "HospitalAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\appsettings.json",
               "RelativeToolTip": "HospitalAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-19T22:06:59.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Empleado.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Empleado.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Empleado.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Empleado.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAiwAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -246,11 +243,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "PacienteDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Data\\PacienteDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Data\\PacienteDbContext.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Data\\PacienteDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Data\\PacienteDbContext.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Data\\PacienteDbContext.cs",
               "RelativeToolTip": "HospitalAPI\\Data\\PacienteDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -258,11 +255,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Dockerfile",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Dockerfile",
               "RelativeDocumentMoniker": "HospitalAPI\\Dockerfile",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Dockerfile",
               "RelativeToolTip": "HospitalAPI\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -270,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PacienteCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\PacienteCreateDto.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAIBJwAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -282,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MedicoUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\MedicoUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -294,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MedicoCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\MedicoCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -306,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ConsultaMedicaCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\ConsultaMedicaCreateDto.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwBAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -318,11 +315,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CentroMedicoUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\CentroMedicoUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -330,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CentroMedicoCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\CentroMedicoCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -342,11 +339,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "PacienteDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\PacienteDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\PacienteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -354,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Ciudad.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Ciudad.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Ciudad.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Ciudad.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Ciudad.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Ciudad.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Ciudad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -366,11 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Paciente.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Paciente.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Paciente.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Paciente.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Paciente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -378,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Especialidad.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Especialidad.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Especialidad.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Especialidad.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Especialidad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,11 +387,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 4,
               "Title": "PacienteUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
               "RelativeDocumentMoniker": "HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Repositorios Git\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
+              "ToolTip": "C:\\Users\\William\\Documents\\6\u00B0 Semestre\\Aplicaciones Distribuidas\\2Parcial\\ApiRestExpoGrupo5\\SistemaHospital\\HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
               "RelativeToolTip": "HospitalAPI\\Models\\Dto\\PacienteUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
