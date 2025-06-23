@@ -20,7 +20,7 @@
           <img
             src="https://ui-avatars.com/api/?name=Admin&background=1abc9c&color=fff"
             alt="Usuario" />
-          <h5 id="userName">Administrador</h5>
+          <h5 id="userName"></h5>
           <p id="userRole">Administrador</p>
         </div>
         <ul class="nav flex-column mt-3" id="navTabs">
@@ -39,11 +39,6 @@
               ><i class="bi bi-person-badge"></i> <span>Médicos</span></a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-section="profile"
-              ><i class="bi bi-person-circle"></i> <span>Perfil</span></a
-            >
-          </li>
         </ul>
         <button class="btn btn-danger logout-btn mt-auto" id="logoutBtn">
           <i class="bi bi-box-arrow-left"></i> <span>Cerrar Sesión</span>
@@ -56,77 +51,20 @@
         <div class="content-section active" id="dashboard">
           <h2 class="page-title">Panel de Administración</h2>
 
-          <div class="row mb-4">
+          <div class="row mb-6">
             <div class="col-md-3">
               <div class="stat-card blue">
                 <i class="bi bi-hospital"></i>
-                <h3>12</h3>
+                <h3 id="centrosCount"></h3>
                 <p>Centros Médicos</p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="stat-card green">
                 <i class="bi bi-person-badge"></i>
-                <h3>48</h3>
+                <h3 id="medicosCount"></h3>
                 <p>Médicos</p>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="stat-card orange">
-                <i class="bi bi-people"></i>
-                <h3>1,240</h3>
-                <p>Pacientes</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div
-                class="stat-card"
-                style="background: linear-gradient(135deg, #9b59b6, #8e44ad)">
-                <i class="bi bi-calendar-check"></i>
-                <h3>186</h3>
-                <p>Citas Hoy</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header bg-primary text-white">
-              <h5 class="mb-0">Actividad Reciente</h5>
-            </div>
-            <div class="card-body">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <i class="bi bi-hospital text-primary"></i>
-                      <span class="ms-2"
-                        >Nuevo centro médico "Clínica Sur" registrado</span
-                      >
-                    </div>
-                    <small>Hace 2 horas</small>
-                  </div>
-                </li>
-                <li class="list-group-item">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <i class="bi bi-person-badge text-success"></i>
-                      <span class="ms-2"
-                        >Dra. Martínez agregada al sistema</span
-                      >
-                    </div>
-                    <small>Ayer, 15:30</small>
-                  </div>
-                </li>
-                <li class="list-group-item">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <i class="bi bi-people text-warning"></i>
-                      <span class="ms-2">52 nuevos pacientes esta semana</span>
-                    </div>
-                    <small>15 Ene 2023</small>
-                  </div>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -148,55 +86,16 @@
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <table class="table table-hover">
+                <table class="table table-hover" id="tablaCentros">
                   <thead>
                     <tr>
-                      <th>ID</th>
                       <th>Nombre</th>
                       <th>Dirección</th>
-                      <th>Teléfono</th>
-                      <th>Médicos</th>
+                      <th>Ciudad</th>
                       <th>Acciones</th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr>
-                      <td>CM001</td>
-                      <td>Clínica Central</td>
-                      <td>Av. Principal 123</td>
-                      <td>(123) 456-7890</td>
-                      <td>18</td>
-                      <td class="action-buttons">
-                        <button
-                          class="btn btn-sm btn-warning"
-                          data-bs-toggle="modal"
-                          data-bs-target="#editCenterModal">
-                          <i class="bi bi-pencil"></i>
-                        </button>
-                        <button class="btn btn-sm btn-danger">
-                          <i class="bi bi-trash"></i>
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>CM002</td>
-                      <td>Hospital del Norte</td>
-                      <td>Calle Norte 456</td>
-                      <td>(123) 456-7891</td>
-                      <td>22</td>
-                      <td class="action-buttons">
-                        <button
-                          class="btn btn-sm btn-warning"
-                          data-bs-toggle="modal"
-                          data-bs-target="#editCenterModal">
-                          <i class="bi bi-pencil"></i>
-                        </button>
-                        <button class="btn btn-sm btn-danger">
-                          <i class="bi bi-trash"></i>
-                        </button>
-                      </td>
-                    </tr>
-                  </tbody>
+                  <tbody id="centrosTableBody"></tbody>
                 </table>
               </div>
             </div>
@@ -223,51 +122,15 @@
                 <table class="table table-hover">
                   <thead>
                     <tr>
-                      <th>ID</th>
                       <th>Nombre</th>
                       <th>Especialidad</th>
                       <th>Centro Médico</th>
-                      <th>Teléfono</th>
+                      <th>Email</th>
                       <th>Acciones</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>DR001</td>
-                      <td>Dra. María Rodríguez</td>
-                      <td>Cardiología</td>
-                      <td>Clínica Central</td>
-                      <td>(123) 456-7890</td>
-                      <td class="action-buttons">
-                        <button
-                          class="btn btn-sm btn-warning"
-                          data-bs-toggle="modal"
-                          data-bs-target="#editDoctorModal">
-                          <i class="bi bi-pencil"></i>
-                        </button>
-                        <button class="btn btn-sm btn-danger">
-                          <i class="bi bi-trash"></i>
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>DR002</td>
-                      <td>Dr. Juan Pérez</td>
-                      <td>Pediatría</td>
-                      <td>Hospital del Norte</td>
-                      <td>(123) 456-7891</td>
-                      <td class="action-buttons">
-                        <button
-                          class="btn btn-sm btn-warning"
-                          data-bs-toggle="modal"
-                          data-bs-target="#editDoctorModal">
-                          <i class="bi bi-pencil"></i>
-                        </button>
-                        <button class="btn btn-sm btn-danger">
-                          <i class="bi bi-trash"></i>
-                        </button>
-                      </td>
-                    </tr>
+                    <!-- Estático por ahora -->
                   </tbody>
                 </table>
               </div>
@@ -277,7 +140,7 @@
       </div>
     </div>
 
-    <!-- Modals -->
+    <!-- Modal Crear Centro Médico -->
     <div class="modal fade" id="addCenterModal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -289,107 +152,102 @@
               data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
-            <form>
+            <form id="formCrearCentro">
               <div class="mb-3">
                 <label class="form-label">Nombre</label>
-                <input type="text" class="form-control" required />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreCentro"
+                  required />
               </div>
               <div class="mb-3">
                 <label class="form-label">Dirección</label>
-                <textarea class="form-control" rows="2" required></textarea>
-              </div>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">Teléfono</label>
-                  <input type="text" class="form-control" required />
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Email</label>
-                  <input type="email" class="form-control" required />
-                </div>
+                <textarea
+                  class="form-control"
+                  id="direccionCentro"
+                  rows="2"
+                  required></textarea>
               </div>
               <div class="mb-3">
-                <label class="form-label">Director</label>
-                <input type="text" class="form-control" required />
+                <label class="form-label">Ciudad ID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="ciudadIdCentro"
+                  required />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal">
+                  Cancelar
+                </button>
+                <button type="submit" class="btn btn-primary">Guardar</button>
               </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal">
-              Cancelar
-            </button>
-            <button type="button" class="btn btn-primary">Guardar</button>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="modal fade" id="addDoctorModal" tabindex="-1">
+    <!-- Modal Editar Centro Médico (generado dinámicamente) -->
+    <div class="modal fade" id="editCenterModal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header bg-primary text-white">
-            <h5 class="modal-title">Agregar Médico</h5>
+          <div class="modal-header bg-warning">
+            <h5 class="modal-title">Editar Centro Médico</h5>
             <button
               type="button"
-              class="btn-close btn-close-white"
+              class="btn-close"
               data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
-            <form>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">Nombre</label>
-                  <input type="text" class="form-control" required />
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Especialidad</label>
-                  <select class="form-select" required>
-                    <option value="">Seleccionar</option>
-                    <option>Cardiología</option>
-                    <option>Pediatría</option>
-                    <option>Dermatología</option>
-                    <option>Ortopedia</option>
-                  </select>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">Teléfono</label>
-                  <input type="text" class="form-control" required />
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Email</label>
-                  <input type="email" class="form-control" required />
-                </div>
+            <form id="formEditarCentro">
+              <input type="hidden" id="editarCentroId" />
+              <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="editarNombreCentro"
+                  required />
               </div>
               <div class="mb-3">
-                <label class="form-label">Centro Médico</label>
-                <select class="form-select" required>
-                  <option value="">Seleccionar</option>
-                  <option>Clínica Central</option>
-                  <option>Hospital del Norte</option>
-                  <option>Centro Médico Este</option>
-                </select>
+                <label class="form-label">Dirección</label>
+                <textarea
+                  class="form-control"
+                  id="editarDireccionCentro"
+                  rows="2"
+                  required></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Ciudad ID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="editarCiudadIdCentro"
+                  required />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal">
+                  Cancelar
+                </button>
+                <button type="submit" class="btn btn-warning">
+                  Actualizar
+                </button>
               </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal">
-              Cancelar
-            </button>
-            <button type="button" class="btn btn-primary">Guardar</button>
           </div>
         </div>
       </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Javascript/ApiRest.js"></script>
+    <script src="Javascript/ApiRestAdmin.js"></script>
   </body>
 </html>
