@@ -1,0 +1,105 @@
+version: '3.8'
+
+services:
+  quito-db:
+    image: mariadb:10.6
+    container_name: quito-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: hospital_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: adminpass
+      MARIADB_SERVER_ID: 1
+      MARIADB_REPLICATION_MODE: master
+      MARIADB_REPLICATION_USER: replicator
+      MARIADB_REPLICATION_PASSWORD: replica_pass
+    ports:
+      - "3307:3306"
+    volumes:
+      - quito_db_data:/var/lib/mysql
+      - ./custom-my.cnf:/etc/mysql/conf.d/custom-my.cnf
+    networks:
+      - hospital_network
+
+  guayaquil-db:
+    image: mariadb:10.6
+    container_name: guayaquil-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: hospital_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: adminpass
+      MARIADB_SERVER_ID: 2
+      MARIADB_REPLICATION_MODE: slave
+      MARIADB_REPLICATION_USER: replicator
+      MARIADB_REPLICATION_PASSWORD: replica_pass
+      MARIADB_MASTER_HOST: quito-db
+      MARIADB_MASTER_PORT: 3306
+    ports:
+      - "3308:3306"
+    volumes:
+      - guayaquil_db_data:/var/lib/mysql
+    networks:
+      - hospital_network
+    depends_on:
+      - quito-db
+
+  cuenca-db:
+    image: mariadb:10.6
+    container_name: cuenca-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: hospital_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: adminpass
+      MARIADB_SERVER_ID: 3
+      MARIADB_REPLICATION_MODE: slave
+      MARIADB_REPLICATION_USER: replicator
+      MARIADB_REPLICATION_PASSWORD: replica_pass
+      MARIADB_MASTER_HOST: quito-db
+      MARIADB_MASTER_PORT: 3306
+    ports:
+      - "3309:3306"
+    volumes:
+      - cuenca_db_data:/var/lib/mysql
+    networks:
+      - hospital_network
+    depends_on:
+      - quito-db
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    networks:
+      - hospital_network
+
+  kafka:
+    image: confluentinc/cp-kafka:7.2.2
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    ports:
+      - "9092:9092"
+    networks:
+      - hospital_network
+
+volumes:
+  quito_db_data:
+  guayaquil_db_data:
+  cuenca_db_data:
+
+networks:
+  hospital_network:
+    driver: bridge
